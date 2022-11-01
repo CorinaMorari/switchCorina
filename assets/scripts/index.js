@@ -1,10 +1,8 @@
 'use strict'
 const body = document.querySelector('body')
-const divParent = document.createElement('div');
 const switchDiv = document.createElement('label');
 const inputCheckbox = document.createElement('input');
 const spanSlider = document.createElement('span');
-
 
 switchDiv.classList.add('switch');
 switchDiv.setAttribute('for','idCheckbox');
@@ -13,7 +11,6 @@ inputCheckbox.setAttribute('type','checkbox');
 inputCheckbox.setAttribute('id','idCheckbox');
 spanSlider.classList.add('slider')
 spanSlider.classList.add('round')
-
 
 body.append(switchDiv);
 switchDiv.append(inputCheckbox);
