@@ -9,7 +9,7 @@ switchDiv.setAttribute('for','idCheckbox');
 inputCheckbox.classList.add('checkbox')
 inputCheckbox.setAttribute('type','checkbox');
 inputCheckbox.setAttribute('id','idCheckbox');
-spanSlider.classList.add('slider')
+spanSlider.classList.add('slider');
 spanSlider.classList.add('round')
 
 body.append(switchDiv);
@@ -18,5 +18,6 @@ switchDiv.append(spanSlider);
 
 inputCheckbox.addEventListener('change', () =>{
     body.classList.toggle('dark');
+    spanSlider.classList.add('bounceRightClass');
 })
 
